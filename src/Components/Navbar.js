@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";import Scroll from "../Components/Scroll";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll/modules";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,29 +26,29 @@ const Navbar = () => {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-          <Scroll to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500}>
             Home
-          </Scroll>
+          </Link>
         </li>
         <li>
-          <Scroll to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={500}>
             About
-          </Scroll>
+          </Link>
         </li>
         <li>
-          <Scroll to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500}>
             Skills
-          </Scroll>
+          </Link>
         </li>
         <li>
-          <Scroll to="project" smooth={true} duration={500}>
+          <Link to="project" smooth={true} duration={500}>
             Projects
-          </Scroll>
+          </Link>
         </li>
         <li>
-          <Scroll to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={500}>
             Contact
-          </Scroll>
+          </Link>
         </li>
       </ul>
 
@@ -65,31 +66,31 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Scroll onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
-          </Scroll>
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Scroll onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
-          </Scroll>
+          </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Scroll onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
-          </Scroll>
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Scroll onClick={handleClick} to="project" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="project" smooth={true} duration={500}>
             Projects
-          </Scroll>
+          </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Scroll onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
-          </Scroll>
+          </Link>
         </li>
       </ul>
 
@@ -115,14 +116,14 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <Scroll
+            <Link
               to="contact"
               smooth={true}
               duration={500}
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email <HiOutlineMail size={30} />
-            </Scroll>
+            </Link>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
