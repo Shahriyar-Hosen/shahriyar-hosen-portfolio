@@ -26,7 +26,7 @@ const Skills = () => {
     <section name="skills" className="w-full  h-full bg-[#0a192f] text-gray-300  min-h-screen" >
       {/* Heading */}
       <div className="flex justify-center pt-10">
-        <h1 className="text-5xl font-bold inline border-b-4 border-pink-600">
+        <h1 className="text-5xl font-bold inline border-b-4 border-pink-600 mt-10">
           Skills
         </h1>
       </div>
