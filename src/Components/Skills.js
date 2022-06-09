@@ -23,18 +23,18 @@ import NextJs from '../assets/NextJs.png'
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full  h-full bg-[#0a192f] text-gray-300">
+    <section name="skills" className="w-full  h-full bg-[#0a192f] text-gray-300  min-h-screen" >
       {/* Heading */}
       <div className="flex justify-center pt-10">
-        <h3 className="text-5xl font-bold inline border-b-4 border-pink-600">
+        <h1 className="text-5xl font-bold inline border-b-4 border-pink-600">
           Skills
-        </h3>
+        </h1>
       </div>
 
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full  ">
         <div>
-          <p className="text-3xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-2xl font-bold inline border-b-4 border-pink-600 ">
             Expertise
           </p>
         </div>
@@ -76,7 +76,7 @@ const Skills = () => {
       </div>
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full  ">
         <div>
-          <p className="text-3xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-2xl font-bold inline border-b-4 border-pink-600 ">
             Comfortable
           </p>
         </div>
@@ -102,7 +102,7 @@ const Skills = () => {
       </div>
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full  ">
         <div>
-          <p className="text-3xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-2xl font-bold inline border-b-4 border-pink-600 ">
             Familiar
           </p>
         </div>
@@ -127,9 +127,9 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full  ">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full ">
         <div>
-          <p className="text-3xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-2xl font-bold inline border-b-4 border-pink-600 ">
             Tools
           </p>
         </div>
@@ -153,7 +153,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
