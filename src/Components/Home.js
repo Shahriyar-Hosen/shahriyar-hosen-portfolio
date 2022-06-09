@@ -6,20 +6,20 @@ const Home = () => {
   return (
     <section
       name="home"
-      className="w-full h-full md:h-screen bg-[#0a192f] flex justify-center items-center pt-20"
+      className="w-full h-full md:h-screen bg-[#0a192f] flex justify-center items-center pt-20 md:pt-10"
     >
       {/* Container */}
-      <div class="hero-content flex-col lg:flex-row-reverse max-w-6xl mx-auto px-8 flex  justify-center">
+      <div class="hero-content w-full flex-col lg:flex-row-reverse max-w-6xl mx-auto px-8 flex  justify-center">
         <img
           src="https://i.ibb.co/kSNKRnh/IMG-20220603-194531-removebg-preview.png"
           class=" max-w-sm rounded-lg shadow-2xl"
           alt=""
         />
         <div>
-          <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+          <h1 className="text-4xl sm:text-7xl font-bold text-[#dae3ff]">
             Shahriyar Hosen
           </h1>
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-[#959bad]">
             I'm a Mern Stack Web Developer
           </h2>
 
