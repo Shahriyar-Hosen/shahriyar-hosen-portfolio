@@ -8,9 +8,19 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed px-12 w-full h-[80px] flex justify-between items-center bg-[#0a192f] text-gray-300">
       <div>
-        <img src={logo} style={{ width: "50px" }} alt="" />
+        {/* <img src={logo} style={{ width: "50px" }} alt="" /> */}
+        <a
+          href="https://drive.google.com/file/d/179ghgxLUElR0nqTitTeSVwWsuMSnx-GQ/view"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="flex justify-center items-center gap-2">
+            <BsFillPersonLinesFill size={25} />
+            <span>Resume</span>
+          </span>
+        </a>
       </div>
 
       {/* Menu */}
