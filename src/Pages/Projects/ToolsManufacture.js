@@ -17,7 +17,7 @@ const ToolsManufacture = () => {
             <img src={CaliphTools} alt="CaliphTools" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title text-3xl">Caliph Tools Manufacturer</h2>
+            <h2 class="text-center py-5 text-3xl md:text-4xl font-bold">Caliph Tools Manufacturer</h2>
             <p>
               This is a tools manufacturer's website. There are different types
               of user interfaces for general users and admin users.

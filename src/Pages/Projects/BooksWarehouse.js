@@ -19,7 +19,7 @@ const BooksWarehouse = () => {
             <img src={BdBooks} alt="CaliphTools" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title text-3xl">BD Books Warehouse</h2>
+            <h2 class="text-center py-5 text-3xl md:text-4xl font-bold">BD Books Warehouse</h2>
             <p>
               This is a warehouse website. Here is the information about product
               storage accounting and product management.

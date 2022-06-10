@@ -18,7 +18,7 @@ const HireTutor = () => {
             <img className="full" src={hireTutor} alt="CaliphTools" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title text-3xl">Hire Tutor</h2>
+            <h2 class="text-center py-5 text-3xl md:text-4xl font-bold">Hire Tutor</h2>
             <p>
               This App is for a Tutor Hire who provides many Types of Tuition.
               There are different types of tutors with different types of
