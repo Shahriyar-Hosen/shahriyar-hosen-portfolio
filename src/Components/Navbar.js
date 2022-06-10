@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll/modules";
+import NavRoute from "../Pages/NavRoute";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -39,6 +40,9 @@ const Navbar = () => {
           <Link to="project" smooth={true} duration={500}>
             Projects
           </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavRoute to="/blogs">Blogs</NavRoute>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
@@ -80,6 +84,9 @@ const Navbar = () => {
           <Link onClick={handleClick} to="project" smooth={true} duration={500}>
             Projects
           </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavRoute to="/blogs">Blogs</NavRoute>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>

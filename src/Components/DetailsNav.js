@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import NavRoute from "../Pages/NavRoute";
 
 const DetailsNav = () => {
   const [nav, setNav] = useState(false);
@@ -40,6 +41,9 @@ const DetailsNav = () => {
             Projects
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          <NavRoute to="/blogs">Blogs</NavRoute>
+        </li>
         <li>
           <Link to="/" smooth={true} duration={500}>
             About
@@ -71,11 +75,6 @@ const DetailsNav = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="/" smooth={true} duration={500}>
             Skills
@@ -84,6 +83,14 @@ const DetailsNav = () => {
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="/" smooth={true} duration={500}>
             Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavRoute to="/blogs">Blogs</NavRoute>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="/" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         <li className="py-6 text-4xl">
