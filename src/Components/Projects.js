@@ -2,6 +2,7 @@ import React from "react";
 import CaliphTools from "../assets/caliph-tools-manufacturer.png";
 import BdBooks from "../assets/bd-books-warehouse.png";
 import HireTutor from "../assets/hire-tutor.png";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -38,11 +39,11 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <Link to="/project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Details
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -67,11 +68,11 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <Link to="/project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Details
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -96,11 +97,11 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <Link to="/project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Details
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ const About = () => {
         
       <div className="flex justify-center items-center pt-10">
           <h1 className="text-5xl font-bold inline border-b-4 border-pink-600 my-10 ">
-            Projects
+          About Me
           </h1>
         </div>
         <div className="max-w-7xl w-full grid grid-cols-2 gap-8">
