@@ -9,7 +9,7 @@ const About = () => {
     <section name="about" className="w-full h-full bg-primary text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="flex justify-center items-center pt-10">
-          <h1 className="text-5xl font-bold inline border-b-4 border-pink-600 my-10 ">
+          <h1 className="text-5xl font-bold inline border-b-4 border-pink-600 my-20 ">
             About Me
           </h1>
         </div>
