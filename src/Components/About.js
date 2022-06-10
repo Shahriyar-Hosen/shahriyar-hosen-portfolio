@@ -12,7 +12,7 @@ const About = () => {
             About Me
           </h1>
         </div>
-        <div className="max-w-[1000px] w-full  px-4 text-lg">
+        <div className="max-w-6xl w-full  px-4 text-lg">
           <div className="card grid grid-cols-1 md:grid-cols-2">
             <figure>
               <img src={AboutMe} className="p-5" alt="About Me" />
