@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { useState } from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import NavRoute from "../Pages/NavRoute";
 import Resume from "../assets/Resume/Resume of SHAHRIYAR HOSEN-Web-Developer.pdf";
+import NavRoute from "../Pages/NavRoute";
 
 const DetailsNav = () => {
   const [nav, setNav] = useState(false);
@@ -24,32 +24,22 @@ const DetailsNav = () => {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="/" smooth={true} duration={500}>
-            Home
-          </Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/" smooth={true} duration={500}>
-            Skills
-          </Link>
+          <Link to="/">Skills</Link>
         </li>
         <li>
-          <Link to="/" smooth={true} duration={500}>
-            Projects
-          </Link>
+          <Link to="/">Projects</Link>
         </li>
         <li>
           <NavRoute to="/blogs">Blogs</NavRoute>
         </li>
         <li>
-          <Link to="/" smooth={true} duration={500}>
-            About
-          </Link>
+          <Link to="/">About</Link>
         </li>
         <li>
-          <Link to="/" smooth={true} duration={500}>
-            Contact
-          </Link>
+          <Link to="/">Contact</Link>
         </li>
       </ul>
 
@@ -67,18 +57,18 @@ const DetailsNav = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/" smooth={true} duration={500}>
+          <Link  to="/">
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="/" smooth={true} duration={500}>
+          <Link  to="/">
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/" smooth={true} duration={500}>
+          <Link  to="/">
             Projects
           </Link>
         </li>
@@ -86,13 +76,13 @@ const DetailsNav = () => {
           <NavRoute to="/blogs">Blogs</NavRoute>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/" smooth={true} duration={500}>
+          <Link  to="/">
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="/" smooth={true} duration={500}>
+          <Link  to="/">
             Contact
           </Link>
         </li>
@@ -122,7 +112,7 @@ const DetailsNav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <Link
               to="/"
-              smooth={true}
+              smooth="true"
               duration={500}
               className="flex justify-between items-center w-full text-gray-300"
             >

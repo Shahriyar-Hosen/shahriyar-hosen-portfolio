@@ -1,4 +1,3 @@
-import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll/modules";
 
@@ -23,7 +22,7 @@ const Banner = () => {
             I'm a Mern Stack Web Developer
           </h2>
 
-          <Link to="project" smooth={true} duration={500}>
+          <Link to="project" smooth="true" duration={500}>
             <button className="text-white group border-2 px-6 py-3 my-20 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
               View Projects
               <span className="group-hover:rotate-90 duration-300">
