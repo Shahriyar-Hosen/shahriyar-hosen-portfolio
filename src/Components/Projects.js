@@ -1,8 +1,7 @@
-import React from "react";
-import CaliphTools from "../assets/caliph-tools-manufacturer.png";
-import BdBooks from "../assets/bd-books-warehouse.png";
-import HireTutor from "../assets/hire-tutor.png";
 import { Link } from "react-router-dom";
+import BdBooks from "../assets/bd-books-warehouse.png";
+import CaliphTools from "../assets/caliph-tools-manufacturer.png";
+import HireTutor from "../assets/hire-tutor.png";
 
 const Projects = () => {
   return (
@@ -19,17 +18,17 @@ const Projects = () => {
 
         {/* Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div class="card card-compact w-full bg-base-100 shadow-xl text-primary">
+          <div className="card card-compact w-full bg-base-100 shadow-xl text-primary">
             <figure>
               <img src={CaliphTools} alt="CaliphTools" />
             </figure>
-            <div class="card-body">
-              <h2 class="card-title">Caliph Tools Manufacturer</h2>
+            <div className="card-body">
+              <h2 className="card-title">Caliph Tools Manufacturer</h2>
               <p>
                 This is a tools manufacturer's website. There are different
                 types of user interfaces for general users and admin users.
               </p>
-              <div class="card-actions justify-evenly mt-3">
+              <div className="card-actions justify-evenly mt-3">
                 <a
                   href="https://caliph-tools-manufacturer.web.app/"
                   target="_blank"
@@ -47,17 +46,17 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div class="card card-compact w-full bg-base-100 shadow-xl text-primary">
+          <div className="card card-compact w-full bg-base-100 shadow-xl text-primary">
             <figure>
               <img src={BdBooks} alt="BdBooks" />
             </figure>
-            <div class="card-body">
-              <h2 class="card-title">Bd Books Warehouse</h2>
+            <div className="card-body">
+              <h2 className="card-title">Bd Books Warehouse</h2>
               <p>
               This is a warehouse website. Here is the information about
                 product storage accounting and product management.
               </p>
-              <div class="card-actions justify-evenly mt-3">
+              <div className="card-actions justify-evenly mt-3">
                 <a
                   href="https://bd-books-warehouse.web.app/"
                   target="_blank"
@@ -75,18 +74,18 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div class="card card-compact w-full bg-base-100 shadow-xl text-primary">
+          <div className="card card-compact w-full bg-base-100 shadow-xl text-primary">
             <figure>
               <img src={HireTutor} alt="HireTutor" />
             </figure>
-            <div class="card-body">
-              <h2 class="card-title">Hire Tutor</h2>
+            <div className="card-body">
+              <h2 className="card-title">Hire Tutor</h2>
               <p>
               This App is for a Tutor Hire who provides many Types of Tuition.
                 There are different types of tutors with different types of
                 services.
               </p>
-              <div class="card-actions justify-evenly mt-3">
+              <div className="card-actions justify-evenly mt-3">
                 <a
                   href="https://hire-tutor-f0b91.web.app/"
                   target="_blank"

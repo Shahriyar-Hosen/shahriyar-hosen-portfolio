@@ -1,12 +1,11 @@
-import React from "react";
-import DetailsNav from "../../Components/DetailsNav";
+import { ImEyePlus, ImPlus } from "react-icons/im";
+import AddItems from "../../assets/AddItems.png";
 import BdBooks from "../../assets/bd-books-warehouse.png";
 import HomePage from "../../assets/Home-Page.png";
 import ManageInventories from "../../assets/ManageInventories.png";
-import AddItems from "../../assets/AddItems.png";
 import MyItems from "../../assets/MyItems.png";
 import Blogs from "../../assets/warehouseBlogs.png";
-import { ImPlus, ImEyePlus } from "react-icons/im";
+import DetailsNav from "../../Components/DetailsNav";
 
 const BooksWarehouse = () => {
   return (
@@ -14,18 +13,18 @@ const BooksWarehouse = () => {
       <DetailsNav />
       <div className="pt-24 max-w-7xl mx-auto flex flex-col justify-center items-center gap-10">
         {/* Project Details */}
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={BdBooks} alt="CaliphTools" />
           </figure>
-          <div class="card-body">
-            <h2 class="text-center py-5 text-3xl md:text-4xl font-bold">BD Books Warehouse</h2>
+          <div className="card-body">
+            <h2 className="text-center py-5 text-3xl md:text-4xl font-bold">BD Books Warehouse</h2>
             <p>
               This is a warehouse website. Here is the information about product
               storage accounting and product management.
             </p>
             
-            <div class="grid  sm:flex justify-center items-center my-10 gap-3">
+            <div className="grid  sm:flex justify-center items-center my-10 gap-3">
               {" "}
               <a
                 href="https://bd-books-warehouse.web.app/"
@@ -65,29 +64,29 @@ const BooksWarehouse = () => {
               </a>
             </div>
 
-            <div class="card-actions justify-center mt-5">
+            <div className="card-actions justify-center mt-5">
               <div className="flex flex-wrap items-center gap-1">
                 <span>Technology Used: </span>
 
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React JS
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React Router
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Firebase
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React firebase hooks
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React hook form
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React bootstrap
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React icons
                 </button>
               </div>
@@ -95,9 +94,9 @@ const BooksWarehouse = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
-          <div class="card-body">
-            <h2 class="card-title text-3xl">Home Page</h2>
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+          <div className="card-body">
+            <h2 className="card-title text-3xl">Home Page</h2>
             <div className="flex flex-col gap-2">
               <p>
                 First there are banners with pictures of several warehouses and
@@ -123,12 +122,12 @@ const BooksWarehouse = () => {
           </figure>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={ManageInventories} alt="CaliphTools" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title text-3xl">Manage Inventories</h2>
+          <div className="card-body">
+            <h2 className="card-title text-3xl">Manage Inventories</h2>
             <p>
               Manage Inventories This page has a list for managing all products
               and there is a button to delete from this list where clicking will
@@ -139,9 +138,9 @@ const BooksWarehouse = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
-          <div class="card-body">
-            <h2 class="card-title text-3xl">Add Items</h2>
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+          <div className="card-body">
+            <h2 className="card-title text-3xl">Add Items</h2>
             <p>
               If you submit all the product information on the Add Items page,
               new product will be added
@@ -152,12 +151,12 @@ const BooksWarehouse = () => {
           </figure>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={MyItems} alt="CaliphTools" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title text-3xl">My Items</h2>
+          <div className="card-body">
+            <h2 className="card-title text-3xl">My Items</h2>
             <p>
               On the My Items page only the logged in user will show a list of
               all the products added and will be able to delete specific
@@ -166,9 +165,9 @@ const BooksWarehouse = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
-          <div class="card-body">
-            <h2 class="card-title text-3xl flex">Blogs</h2>
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+          <div className="card-body">
+            <h2 className="card-title text-3xl flex">Blogs</h2>
             <p>The following questions are answered on the Blogs page</p>
             <p>1_ Difference between javascript and nodejs</p>
             <p>2_ When should you use nodejs and when should you use MongoDB</p>
@@ -180,9 +179,9 @@ const BooksWarehouse = () => {
           </figure>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto py-5">
-          <div class="card-body text-lg">
-            <h2 class="text-center mb-6 text-4xl">More that has been used</h2>
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto py-5">
+          <div className="card-body text-lg">
+            <h2 className="text-center mb-6 text-4xl">More that has been used</h2>
             <p>
               The basic version of the JWT token is used for email /
               password-based authentication. After logging in, a JWT token is

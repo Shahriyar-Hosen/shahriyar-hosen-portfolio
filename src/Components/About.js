@@ -1,8 +1,7 @@
-import React from "react";
-import AboutMe from "../assets/about-me.png";
-import { FiLink, FiExternalLink } from "react-icons/fi";
 import { FaFileDownload } from "react-icons/fa";
-import Resume from '../assets/Resume/Resume of SHAHRIYAR HOSEN-Web-Developer.pdf'
+import { FiExternalLink, FiLink } from "react-icons/fi";
+import AboutMe from "../assets/about-me.png";
+import Resume from '../assets/Resume/Resume of SHAHRIYAR HOSEN-Web-Developer.pdf';
 
 const About = () => {
   return (
@@ -14,11 +13,11 @@ const About = () => {
           </h1>
         </div>
         <div className="max-w-[1000px] w-full  px-4 text-lg">
-          <div class="card grid grid-cols-1 md:grid-cols-2">
+          <div className="card grid grid-cols-1 md:grid-cols-2">
             <figure>
               <img src={AboutMe} className="p-5" alt="About Me" />
             </figure>
-            <div class="card-body">
+            <div className="card-body">
               <p>
                 I am Shahriar Hossain. Marn-Stack is a hard-working web
                 developer in Bangladesh. I usually create applications with
@@ -33,7 +32,7 @@ const About = () => {
                 large enterprise corporations. What would you do if you had a
                 software expert available at your fingertips?
               </p>
-              <div class="card-actions justify-center items-center">
+              <div className="card-actions justify-center items-center">
                 {" "}
                 <a
                   href="https://drive.google.com/file/d/179ghgxLUElR0nqTitTeSVwWsuMSnx-GQ/view"

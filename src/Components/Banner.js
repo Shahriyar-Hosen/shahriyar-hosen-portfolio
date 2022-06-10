@@ -9,10 +9,10 @@ const Banner = () => {
       className="w-full h-full md:h-screen bg-primary flex justify-center items-center pt-20 md:pt-10"
     >
       {/* Container */}
-      <div class="hero-content w-full flex-col lg:flex-row-reverse max-w-6xl mx-auto px-8 flex  justify-center">
+      <div className="hero-content w-full flex-col lg:flex-row-reverse max-w-6xl mx-auto px-8 flex  justify-center">
         <img
           src="https://i.ibb.co/kSNKRnh/IMG-20220603-194531-removebg-preview.png"
-          class=" max-w-sm rounded-lg shadow-2xl"
+          className=" max-w-sm rounded-lg shadow-2xl"
           alt=""
         />
         <div className="w-full px-10 md:px-0">

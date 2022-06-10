@@ -1,10 +1,9 @@
-import React from "react";
-import DetailsNav from "../../Components/DetailsNav";
-import CaliphTools from "../../assets/caliph-tools-manufacturer.png";
-import CaliphHomePage from "../../assets/Caliph-Home-Page.png";
-import Dashboard from "../../assets/Dashboard.png";
+import { ImEyePlus, ImPlus } from "react-icons/im";
 import Blogs from "../../assets/caliph-Blogs.png";
-import { ImPlus, ImEyePlus } from "react-icons/im";
+import CaliphHomePage from "../../assets/Caliph-Home-Page.png";
+import CaliphTools from "../../assets/caliph-tools-manufacturer.png";
+import Dashboard from "../../assets/Dashboard.png";
+import DetailsNav from "../../Components/DetailsNav";
 
 const ToolsManufacture = () => {
   return (
@@ -12,18 +11,18 @@ const ToolsManufacture = () => {
       <DetailsNav />
       <div className="pt-24 max-w-7xl mx-auto flex flex-col justify-center items-center gap-10">
         {/* Project Details */}
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={CaliphTools} alt="CaliphTools" />
           </figure>
-          <div class="card-body">
-            <h2 class="text-center py-5 text-3xl md:text-4xl font-bold">Caliph Tools Manufacturer</h2>
+          <div className="card-body">
+            <h2 className="text-center py-5 text-3xl md:text-4xl font-bold">Caliph Tools Manufacturer</h2>
             <p>
               This is a tools manufacturer's website. There are different types
               of user interfaces for general users and admin users.
             </p>
 
-            <div class="grid  sm:flex justify-center items-center my-10 gap-3">
+            <div className="grid  sm:flex justify-center items-center my-10 gap-3">
               {" "}
               <a
                 href="https://caliph-tools-manufacturer.web.app/"
@@ -63,47 +62,47 @@ const ToolsManufacture = () => {
               </a>
             </div>
 
-            <div class="card-actions justify-center mt-5">
+            <div className="card-actions justify-center mt-5">
               <div className="flex flex-wrap items-center gap-1">
                 <span>Technology Used: </span>
 
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React JS
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React Router
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React Query
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Axios
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   React Hook form
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Firebase
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Firebase Hooks
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Authentication
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Dotenv
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Tailwind CSS
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   daisy UI
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   Tailwind Elements
                 </button>
-                <button class="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
+                <button className="btn btn-xs bg-white text-secondary hover:bg-info hover:text-white duration-300 border-info">
                   sweet alert
                 </button>
               </div>
@@ -111,9 +110,9 @@ const ToolsManufacture = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
-          <div class="card-body">
-            <h2 class="card-title text-3xl">Home Page</h2>
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+          <div className="card-body">
+            <h2 className="card-title text-3xl">Home Page</h2>
             <p>
               The homepage has a banner first. Then there is talk about Khalifa
               Tools and then there are Khalifa Tools. From where all clients can
@@ -127,12 +126,12 @@ const ToolsManufacture = () => {
           </figure>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={Dashboard} alt="CaliphTools" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title text-3xl">Dashboard</h2>
+          <div className="card-body">
+            <h2 className="card-title text-3xl">Dashboard</h2>
             <p>
               Two types of users will see two types of interfaces in the
               dashboard. First let's talk about the general user interface. A
@@ -145,9 +144,9 @@ const ToolsManufacture = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
-          <div class="card-body">
-            <h2 class="card-title text-3xl">Blogs</h2>
+        <div className="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+          <div className="card-body">
+            <h2 className="card-title text-3xl">Blogs</h2>
             <p>
               Six questions are answered in the Blogs section. Below are the
               questions:
