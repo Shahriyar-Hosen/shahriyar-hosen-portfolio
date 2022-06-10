@@ -6,6 +6,7 @@ import ManageInventories from "../../assets/ManageInventories.png";
 import AddItems from "../../assets/AddItems.png";
 import MyItems from "../../assets/MyItems.png";
 import Blogs from "../../assets/warehouseBlogs.png";
+import { ImPlus, ImEyePlus } from "react-icons/im";
 
 const BooksWarehouse = () => {
   return (
@@ -23,6 +24,47 @@ const BooksWarehouse = () => {
               This is a warehouse website. Here is the information about product
               storage accounting and product management.
             </p>
+            
+            <div class="grid  sm:flex justify-center items-center my-10 gap-3">
+              {" "}
+              <a
+                href="https://bd-books-warehouse.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Demo
+                  <ImEyePlus className="ml-3 " />
+                </button>
+              </a>
+              <span className="flex justify-center">
+                <ImPlus />
+              </span>
+              <a
+                href="https://github.com/shahriyarhosen/bd-books-warehouse"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Client
+                  <ImEyePlus className="ml-3" />
+                </button>
+              </a>
+              <span className="flex justify-center">
+                <ImPlus />
+              </span>
+              <a
+                href="https://github.com/shahriyarhosen/bd-books-warehouse-server"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Server
+                  <ImEyePlus className="ml-3" />
+                </button>
+              </a>
+            </div>
+
             <div class="card-actions justify-center mt-5">
               <div className="flex flex-wrap items-center gap-1">
                 <span>Technology Used: </span>
