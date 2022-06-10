@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "../assets/about-me.png";
 import { FiLink, FiExternalLink } from "react-icons/fi";
 import { FaFileDownload } from "react-icons/fa";
+import Resume from '../assets/Resume/Resume of SHAHRIYAR HOSEN-Web-Developer.pdf'
 
 const About = () => {
   return (
@@ -48,9 +49,8 @@ const About = () => {
                   <FiLink />
                 </span>
                 <a
-                  href="https://drive.google.com/file/d/179ghgxLUElR0nqTitTeSVwWsuMSnx-GQ/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={Resume}
+                  download
                 >
                   <button className="text-white group border-2 px-6 py-3 my-20 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
                     Download

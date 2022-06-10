@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll/modules";
 import NavRoute from "../Pages/NavRoute";
+import Resume from "../assets/Resume/Resume of SHAHRIYAR HOSEN-Web-Developer.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,11 +13,7 @@ const Navbar = () => {
     <div className="fixed px-5 w-screen md:px-12 h-[80px] flex justify-between items-center bg-primary text-gray-300 z-10 shadow-lg">
       <div>
         {/* <img src={logo} style={{ width: "50px" }} alt="" /> */}
-        <a
-          href="https://drive.google.com/file/d/179ghgxLUElR0nqTitTeSVwWsuMSnx-GQ/view"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={Resume} download>
           <span className="flex justify-center items-center gap-2">
             <BsFillPersonLinesFill size={25} />
             <span>Resume</span>
@@ -41,7 +38,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li>
           <NavRoute to="/blogs">Blogs</NavRoute>
         </li>
         <li>
