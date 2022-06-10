@@ -2,6 +2,8 @@ import React from "react";
 import DetailsNav from "../../Components/DetailsNav";
 import CaliphTools from "../../assets/caliph-tools-manufacturer.png";
 import CaliphHomePage from "../../assets/Caliph-Home-Page.png";
+import Dashboard from "../../assets/Dashboard.png";
+import Blogs from "../../assets/caliph-Blogs.png";
 
 const ToolsManufacture = () => {
   return (
@@ -85,7 +87,7 @@ const ToolsManufacture = () => {
 
         <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
           <figure>
-            <img src={CaliphHomePage} alt="CaliphTools" />
+            <img src={Dashboard} alt="CaliphTools" />
           </figure>
           <div class="card-body">
             <h2 class="card-title text-3xl">Dashboard</h2>
@@ -103,7 +105,7 @@ const ToolsManufacture = () => {
 
         <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
           <figure>
-            <img src={CaliphHomePage} alt="CaliphTools" />
+            <img src={Blogs} alt="CaliphTools" />
           </figure>
           <div class="card-body">
             <h2 class="card-title text-3xl">Blogs</h2>
