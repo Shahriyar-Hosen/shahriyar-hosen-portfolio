@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section
       name="home"
-      className="w-full h-full md:h-screen bg-[#0a192f] flex justify-center items-center pt-20 md:pt-10"
+      className="w-full h-full md:h-screen bg-primary flex justify-center items-center pt-20 md:pt-10"
     >
       {/* Container */}
       <div class="hero-content w-full flex-col lg:flex-row-reverse max-w-6xl mx-auto px-8 flex  justify-center">

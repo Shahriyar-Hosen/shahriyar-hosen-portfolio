@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       name="about"
-      className="w-full h-screen bg-[#0a192f] text-gray-300"
+      className="w-full h-screen bg-primary text-gray-300"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         

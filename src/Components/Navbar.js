@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed px-5 w-screen md:px-12 h-[80px] flex justify-between items-center bg-[#0a192f] text-gray-300 z-10">
+    <div className="fixed px-5 w-screen md:px-12 h-[80px] flex justify-between items-center bg-primary text-gray-300 z-10 shadow-lg">
       <div>
         {/* <img src={logo} style={{ width: "50px" }} alt="" /> */}
         <a
@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex justify-center items-center">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -62,7 +62,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">

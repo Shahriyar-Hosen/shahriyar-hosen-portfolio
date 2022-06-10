@@ -23,7 +23,7 @@ import NextJs from '../assets/NextJs.png'
 
 const Skills = () => {
   return (
-    <section name="skills" className="w-full  h-full bg-[#0a192f] text-gray-300  min-h-screen" >
+    <section name="skills" className="w-full  h-full bg-primary text-gray-300  min-h-screen" >
       {/* Heading */}
       <div className="flex justify-center pt-10">
         <h1 className="text-5xl font-bold inline border-b-4 border-pink-600 mt-10">
