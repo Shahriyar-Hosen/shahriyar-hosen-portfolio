@@ -13,7 +13,7 @@ const BooksWarehouse = () => {
       <DetailsNav />
       <div className="pt-24 max-w-7xl mx-auto flex flex-col justify-center items-center gap-10">
         {/* Project Details */}
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={BdBooks} alt="CaliphTools" />
           </figure>
@@ -53,10 +53,7 @@ const BooksWarehouse = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
-          <figure>
-            <img src={HomePage} alt="CaliphTools" />
-          </figure>
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <div class="card-body">
             <h2 class="card-title text-3xl">Home Page</h2>
             <div className="flex flex-col gap-2">
@@ -79,9 +76,12 @@ const BooksWarehouse = () => {
               </p>
             </div>
           </div>
+          <figure>
+            <img src={HomePage} alt="CaliphTools" />
+          </figure>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={ManageInventories} alt="CaliphTools" />
           </figure>
@@ -97,10 +97,7 @@ const BooksWarehouse = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
-          <figure>
-            <img src={AddItems} alt="CaliphTools" />
-          </figure>
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <div class="card-body">
             <h2 class="card-title text-3xl">Add Items</h2>
             <p>
@@ -108,9 +105,12 @@ const BooksWarehouse = () => {
               new product will be added
             </p>
           </div>
+          <figure>
+            <img src={AddItems} alt="CaliphTools" />
+          </figure>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={MyItems} alt="CaliphTools" />
           </figure>
@@ -124,27 +124,23 @@ const BooksWarehouse = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
+          <div class="card-body">
+            <h2 class="card-title text-3xl flex">Blogs</h2>
+            <p>The following questions are answered on the Blogs page</p>
+            <p>1_ Difference between javascript and nodejs</p>
+            <p>2_ When should you use nodejs and when should you use MongoDB</p>
+            <p>3_ Differences between SQL and NoSQL databases.</p>
+            <p>4_ What is the purpose of JWT and how does it work</p>
+          </div>
           <figure>
             <img src={Blogs} alt="CaliphTools" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title text-3xl">Blogs</h2>
-            <p>The following questions are answered on the Blogs page</p>
-            <ul>
-              <li>1_ Difference between javascript and nodejs</li>
-              <li>
-                2_ When should you use nodejs and when should you use MongoDB
-              </li>
-              <li>3_ Differences between SQL and NoSQL databases.</li>
-              <li>4_ What is the purpose of JWT and how does it work</li>
-            </ul>
-          </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
-          <div class="card-body">
-            <h2 class="card-title text-3xl">More that has been used</h2>
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto py-5">
+          <div class="card-body text-lg">
+            <h2 class="text-center mb-6 text-4xl">More that has been used</h2>
             <p>
               The basic version of the JWT token is used for email /
               password-based authentication. After logging in, a JWT token is

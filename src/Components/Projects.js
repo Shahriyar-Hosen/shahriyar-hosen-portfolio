@@ -96,7 +96,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <Link to="/projectDetails">
+                <Link to="/HireTutor">
                   <button className="text-white group btn btn-primary border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
                     Details
                   </button>

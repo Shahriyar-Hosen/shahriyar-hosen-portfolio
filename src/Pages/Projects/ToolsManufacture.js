@@ -11,7 +11,7 @@ const ToolsManufacture = () => {
       <DetailsNav />
       <div className="pt-24 max-w-7xl mx-auto flex flex-col justify-center items-center gap-10">
         {/* Project Details */}
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={CaliphTools} alt="CaliphTools" />
           </figure>
@@ -69,10 +69,7 @@ const ToolsManufacture = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
-          <figure>
-            <img src={CaliphHomePage} alt="CaliphTools" />
-          </figure>
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <div class="card-body">
             <h2 class="card-title text-3xl">Home Page</h2>
             <p>
@@ -83,9 +80,12 @@ const ToolsManufacture = () => {
               customer reviews & lasts Footer
             </p>
           </div>
+          <figure>
+            <img src={CaliphHomePage} alt="CaliphTools" />
+          </figure>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <figure>
             <img src={Dashboard} alt="CaliphTools" />
           </figure>
@@ -103,10 +103,7 @@ const ToolsManufacture = () => {
           </div>
         </div>
 
-        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto">
-          <figure>
-            <img src={Blogs} alt="CaliphTools" />
-          </figure>
+        <div class="card lg:card-side bg-black bg-opacity-40 text-white mx-5 xl:mx-auto  grid grid-cols-1 lg:grid-cols-2">
           <div class="card-body">
             <h2 class="card-title text-3xl">Blogs</h2>
             <p>
@@ -136,6 +133,9 @@ const ToolsManufacture = () => {
               <li>6_ What is a unit test? Why should write unit tests?</li>
             </ul>
           </div>
+          <figure>
+            <img src={Blogs} alt="CaliphTools" />
+          </figure>
         </div>
       </div>
     </section>
