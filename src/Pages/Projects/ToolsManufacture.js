@@ -4,6 +4,7 @@ import CaliphTools from "../../assets/caliph-tools-manufacturer.png";
 import CaliphHomePage from "../../assets/Caliph-Home-Page.png";
 import Dashboard from "../../assets/Dashboard.png";
 import Blogs from "../../assets/caliph-Blogs.png";
+import { ImPlus, ImEyePlus } from "react-icons/im";
 
 const ToolsManufacture = () => {
   return (
@@ -21,6 +22,47 @@ const ToolsManufacture = () => {
               This is a tools manufacturer's website. There are different types
               of user interfaces for general users and admin users.
             </p>
+
+            <div class="grid  sm:flex justify-center items-center my-10 gap-3">
+              {" "}
+              <a
+                href="https://caliph-tools-manufacturer.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Demo
+                  <ImEyePlus className="ml-3 " />
+                </button>
+              </a>
+              <span className="flex justify-center">
+                <ImPlus />
+              </span>
+              <a
+                href="https://github.com/shahriyarhosen/Caliph-Tools-Manufacturer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Client
+                  <ImEyePlus className="ml-3" />
+                </button>
+              </a>
+              <span className="flex justify-center">
+                <ImPlus />
+              </span>
+              <a
+                href="https://github.com/shahriyarhosen/Caliph-Tools-Manufacturer-server"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Server
+                  <ImEyePlus className="ml-3" />
+                </button>
+              </a>
+            </div>
+
             <div class="card-actions justify-center mt-5">
               <div className="flex flex-wrap items-center gap-1">
                 <span>Technology Used: </span>
