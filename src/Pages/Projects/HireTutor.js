@@ -5,6 +5,7 @@ import Authentication from "../../assets//Authentication.png";
 import CheckoutPage from "../../assets/CheckoutPage.png";
 import Blogs from "../../assets/hireTutorBlogs.png";
 import hireTutor from "../../assets/hire-tutor.png";
+import { ImPlus, ImEyePlus } from "react-icons/im";
 
 const HireTutor = () => {
   return (
@@ -23,6 +24,34 @@ const HireTutor = () => {
               There are different types of tutors with different types of
               services.
             </p>
+            
+            <div class="grid  sm:flex justify-center items-center my-10 gap-3">
+              {" "}
+              <a
+                href="https://hire-tutor-f0b91.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Demo
+                  <ImEyePlus className="ml-3 " />
+                </button>
+              </a>
+              <span className="flex justify-center">
+                <ImPlus />
+              </span>
+              <a
+                href="https://github.com/shahriyarhosen/hire-tutor"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white group border-2 px-6 py-3  flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200 ">
+                  Code 
+                  <ImEyePlus className="ml-3" />
+                </button>
+              </a>
+            </div>
+
             <div class="card-actions justify-center mt-5">
               <div className="flex flex-wrap items-center gap-1">
                 <span>Technology Used: </span>
