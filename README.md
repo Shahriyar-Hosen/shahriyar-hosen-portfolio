@@ -1,6 +1,6 @@
 <p align="center" ><img alt="computer coding a men" src="https://i.ibb.co/9pNj7M3/coding.gif" width="100%" height="320" /></p>
 
-![Profile views](https://gpvc.arturio.dev/shahriyarhosen)
+![Profile views](https://gpvc.arturio.dev/Shahriyar-Hosen)
 ![focus](https://img.shields.io/badge/focus-FullStack-critical)
 ![living](https://img.shields.io/badge/living-Natore-3c9)
 ![age](https://img.shields.io/badge/age-21-blueviolet)
