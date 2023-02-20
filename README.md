@@ -4,7 +4,7 @@
 ![focus](https://img.shields.io/badge/focus-FullStack-critical)
 ![living](https://img.shields.io/badge/living-Natore-3c9)
 ![age](https://img.shields.io/badge/age-21-blueviolet)
-[![Github](https://img.shields.io/github/followers/shahriyarhosen?label=Follow&style=social)](https://github.com/shahriyarhosen)&nbsp;
+[![Github](https://img.shields.io/github/followers/shahriyarhosen?label=Follow&style=social)](https://github.com/Shahriyar-Hosen)&nbsp;
 
 <!--START_SECTION:waka-->
 <!-- ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C187%20hrs%2034%20mins-blue)
@@ -78,11 +78,6 @@ I'm Shahriar Hosen web developer from Bangladesh. I love web development because
 <a href="https://app.netlify.com/" target="_blank" rel="noreferrer"> 
 <img src="https://i.ibb.co/HXbptwp/5bSckoxz.png" width="40" height="40"/> 
 </a> 
-</p>
-
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/Shahriyar-Hosen/count.svg" />
 </p>
 
 <h1 align="center">Connect with me</h1>
