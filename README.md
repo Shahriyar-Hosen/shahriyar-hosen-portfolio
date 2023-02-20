@@ -80,7 +80,10 @@ I'm Shahriar Hosen web developer from Bangladesh. I love web development because
 </a> 
 </p>
 
-<br>
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/Shahriyar-Hosen/count.svg" />
+</p>
 
 <h1 align="center">Connect with me</h1>
 
@@ -116,13 +119,7 @@ I'm Shahriar Hosen web developer from Bangladesh. I love web development because
 <!-- <h3 align="center">Contribution Graph</h3>
 
 [![Shahriyar-Hosen's github activity graph](https://activity-graph.herokuapp.com/graph?username=Shahriyar-Hosen&theme=chartreuse-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
 <br> -->
-
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/Shahriyar-Hosen/count.svg" />
-</p>
 
 <p align="center">
    <table>
