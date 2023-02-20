@@ -4,7 +4,7 @@
 ![focus](https://img.shields.io/badge/focus-FullStack-critical)
 ![living](https://img.shields.io/badge/living-Natore-3c9)
 ![age](https://img.shields.io/badge/age-21-blueviolet)
-[![Github](https://img.shields.io/github/followers/shahriyarhosen?label=Follow&style=social)](https://github.com/Shahriyar-Hosen)&nbsp;
+[![Github](https://img.shields.io/github/followers/Shahriyar-Hosen?label=Follow&style=social)](https://github.com/Shahriyar-Hosen)&nbsp;
 
 <!--START_SECTION:waka-->
 <!-- ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C187%20hrs%2034%20mins-blue)
